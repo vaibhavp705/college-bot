@@ -74,7 +74,7 @@ It works 24/7 and reduces workload on college staff.
 1. Clone the repository
 
 ```bash id="inst1"
-git clone <YOUR_GITHUB_REPOSITORY_URL>
+git clone <https://github.com/vaibhavp705/college-bot.git>
 ```
 
 2. Navigate to project folder
@@ -106,13 +106,13 @@ npm run dev
 ### Run Backend
 
 ```bash id="run2"
-python main.py
+ node server/server.js
 ```
 
 Open browser:
 
 ```bash id="run3"
- http://localhost:8080/
+http://localhost:8080/
 ```
 
 ## Features
@@ -173,9 +173,8 @@ The project can be deployed using:
 ## Resources
 
 * College Website: https://jspmbsiotr.edu.in/
-* Sentence Transformers
-* ChromaDB
-* OpenAI API / Groq API/gemini
+* API gemini
+* chatgpt
 
 
 ## Project Status
